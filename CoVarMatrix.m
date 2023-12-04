@@ -140,6 +140,9 @@ max(max(abs(CorrMatrix-CorrMatrix2)))
 % symmetric in the parameters which further helps make finding the optimum
 % computationally easier.
 
+% Bucci,Ippoliti, and Valentini (2022) [https://doi.org/10.1007/s11222-022-10157-4] 
+% shows AH2021 performs well in monte-carlo simulations relative to alternatives.
+
 %% How to apply this
 % Set up your optimization routine to take CoVarParametrization as input to 
 % be optimized (part of the argmax).
