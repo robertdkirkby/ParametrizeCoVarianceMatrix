@@ -1,5 +1,8 @@
 # ParametrizeCoVarianceMatrix
-Codes illustrating how to use Archakov &amp; Hansen (2021) - 'A New Parametrization of Correlation Matrices' to parametrize the Covariance matrix
+Codes illustrating how to use 
+
+Archakov &amp; Hansen (2021) - 'A New Parametrization of Correlation Matrices' to parametrize the Covariance matrix
+
 https://doi.org/10.3982/ECTA16910
 
 Related post about this:
