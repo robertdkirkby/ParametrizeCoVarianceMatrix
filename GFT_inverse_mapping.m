@@ -11,7 +11,7 @@ iter_number = -1;
 % gamma is of suitable length and tolerance value belongs to a proper interval
 n = 0.5*(1+sqrt(1+8*length(gamma)));
 if ~isvector(gamma)
-    error('gammm should be a vector')
+    error('gamma should be a vector')
 end
 if n ~= floor(n)
     error('gamma should have n(n-1)/2 elements, where nxn is the size of the covar matrix you are parametrizing')
