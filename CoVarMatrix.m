@@ -136,9 +136,10 @@ max(max(abs(CorrMatrix-CorrMatrix2)))
 % AH2021 also discuss that their parametrization appears to avoid skewness
 % in the parameters (which would make finding the optimum more computationally difficult).
 % When the covariance matrix is 2x2 their approach inherits properties of
-% the 'Fisher transformation' (see their paper) and this means it is
-% symmetric in the parameters which further helps make finding the optimum
-% computationally easier.
+% the 'Fisher transformation' (see their paper) and this means it is both
+% symmetric and avoids skewness in the parameters which further helps make finding the optimum
+% computationally easier. Beyond 2x2 is it no longer symmetric, but simulations suggest
+% it still avoids skewness.
 
 % Bucci,Ippoliti, and Valentini (2022) [https://doi.org/10.1007/s11222-022-10157-4] 
 % shows AH2021 performs well in monte-carlo simulations relative to alternatives.
